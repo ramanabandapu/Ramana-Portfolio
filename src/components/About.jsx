@@ -46,7 +46,7 @@ export default function About() {
 									React for building user interfaces{" "}
 								</li>
 								<li className="aboutme-highlighted-text">
-									Redux for State Mnanagement
+									Redux for State Management
 								</li>
 								<li className="aboutme-highlighted-text">Building REST API</li>
 								<li className="aboutme-highlighted-text">Managing database</li>
