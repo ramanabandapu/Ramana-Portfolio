@@ -60,8 +60,9 @@ export default function Profile() {
                   Hire Me{" "}
               </button>
             </a>
-              <a href="Ramana_Bandapu_Resume_01-05-2022-13-05-39.pdf">
+              <a href="public\Ramana_Bandapu_Resume_01-05-2022-13-05-39.pdf">
                   <button className="btn highlighted-btn">Get Resume</button>
+                  {/* https://drive.google.com/file/d/14q5_6vV3iVIXihyaKm-4DRfceGkvtmSX/view?usp=sharing */}
               </a>
           </div>
         </div>

@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Project.css";
 import faasosimg from "../../assets/Home/faasosimg.png";
 import koovsimg from "../../assets/Home/koovsimg.png";
-import policyimg from "../../assets/Home/policybaazarfront.png";
 
+import bluemercury from "../../assets/Home/bluemercury.png";
 import Particle from "./Particle";
 import ProjectCards from "./ProjectCards";
 
@@ -44,9 +44,12 @@ function Projects() {
 										<p>HTML5, CSS, JAVASCRIPT</p>
 									</div>
 								}
-								link="https://github.com/ramanabandapu/KindMeal---clone/tree/main/kindmeal-clone-project-master"
+								link="https://kindmeal-clone-project.netlify.app/"
 								target="_blank"
-								// link2="https://github.com/pankaj5417/koovs.git" target="_blank"
+
+								link2="https://github.com/ramanabandapu/KindMeal---clone/tree/main/kindmeal-clone-project-master"
+								
+						
 							/>
 						</Col>
 
@@ -54,23 +57,26 @@ function Projects() {
 							<ProjectCards
 								imgPath={faasosimg}
 								isBlog={false}
-								title="Farfetch.com Clone"
+								title="lovoda.com Clone"
 								description={
 									<div className="project-card-text">
 										<p style={{ width: "90%" }}>
-											This is the Clone of Farfetch.com an online fashion
-											products store web app. An individual project built in 5
-											days during the Unit-2 construct week at Masai School.This
+											This is the Clone of lovoda.com an online fashion
+											jewellary store web app. An team project built in 5
+											days during the Unit-5 construct week at Masai School.This
 											website consists of many cool functalities like user
-											authentication, filtering, add to cart, payment and
-											checkout pagecoupon and many more.{" "}
+											authentication, filtering, add to cart, payment,
+											checkout and many more.{" "}
 										</p>
 										<h3>Tech Stack:</h3>{" "}
-										<p>HTML5,CSS,JAVASCRIPT,API,MOCK SERVER</p>
+										<p>HTML5,CSS,JAVASCRIPT, ReactJs, ReduxJs</p>
 									</div>
 								}
-								link="https://github.com/ramanabandapu/Farfetch---clone"
+								link="https://github.com/ramanabandapu/deluxe-change-1738/tree/main/src"
 								target="_blank"
+
+								link2="https://github.com/ramanabandapu/deluxe-change-1738/tree/main/src"
+								
 								// link2="https://github.com/pankaj5417/Faasos-clone.git" target="_blank"
 							/>
 						</Col>
@@ -104,33 +110,36 @@ function Projects() {
 								}
 								link="https://github.com/ramanabandapu/zara-home-responsive/tree/main/zara%20home-unit4-responsive"
 								target="_blank"
-								// link2="https://github.com/pankaj5417/FaasosClone2.git" target="_blank"
+								
 							/>
 						</Col>
 
 						<Col md={6} className="project-card">
 							<ProjectCards
-								imgPath={policyimg}
+								imgPath={bluemercury}
 								isBlog={false}
-								title="ZaraHome.com Clone"
+								title="bluemercury.com Clone"
 								description={
 									<div className="project-card-text">
 										<p style={{ width: "90%" }}>
-											This is the Clone of ZaraHome.com an online web
-											application for interior designing products. We were a
+											This is the Clone of bluemercury.com an online web
+											application for cosmetics, skincare, wellness and spa products. We were a
 											team of 5 members and made this web app in 5 days during
-											the Unit-4 construct week at Masai School.This website
-											consists of many cool functalities like filtering , search
-											with debouncing,api,location based address,coupon and many
+											the Unit-5 construct week at Masai School.This website
+											consists of many cool functalities like authentication, filtering ,
+										    sorting, add to wishlist, add to cart and remove, location based address,coupon and many
 											more..{" "}
 										</p>
 										<h3>Tech Stack:</h3>{" "}
-										<p>HTML5, CSS, JAVASCRIPT, MONGODB, EXPRESS, NODEJS </p>
+										<p> JAVASCRIPT, ReactJS, ReduxJS, MONGODB, ExpressJS, NodeJS, ChakraUI </p>
 									</div>
 								}
-								link="https://github.com/ramanabandapu/zara-home-responsive/tree/main/zara%20home-unit4-responsive"
+								link="https://affable-scissors-7552.vercel.app/"
 								target="_blank"
-								// link2="https://github.com/pankaj5417/policy-bazaar-clone.git" target="_blank"
+
+								link2="https://github.com/parthdeshmukh2/affable-scissors-7552/tree/main/bluemercury/src"
+								
+								
 							/>
 						</Col>
 					</Row>

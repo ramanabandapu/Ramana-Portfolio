@@ -45,5 +45,9 @@
 	},
 	"devDependencies": {
 		"tsparticles": "^1.39.0"
-	}
+	},
+	"main": "index.js",
+	"repository": "https://github.com/ramanabandapu/Ramana-Portfolio.git",
+	"author": "Ramana Bandapu <bandapu.ramana@gmail.com>",
+	"license": "MIT"
 }
