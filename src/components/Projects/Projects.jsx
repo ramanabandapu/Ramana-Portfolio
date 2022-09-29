@@ -120,7 +120,7 @@ function Projects() {
                       This is the Clone of bluemercury.com an online web
                       application for cosmetics, skincare and spa products.This
                       is a team project built by 5 members in 5 days during the
-                      RCT-211-B-18 construct week at Masai School.This website
+                      RCT-211-B-18 construct week at Masai School which
                       consists of many cool functionalities like authentication,
                       filtering , sorting, add to wishlist, add to cart and
                       remove, coupon and many more..{" "}
